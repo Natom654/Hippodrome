@@ -13,10 +13,14 @@ public class Horse {
         if (isNull(name)) {
 
             logger.info("Name is null");
+
             throw new IllegalArgumentException("Name cannot be null.");
+
         } else if (name.isBlank()) {
             logger.info("Name is blank");
+
             throw new IllegalArgumentException("Name cannot be blank.");
+
         }
         if (speed < 0) {
             logger.info("Name is negative");

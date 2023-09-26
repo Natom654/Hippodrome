@@ -25,6 +25,7 @@ public class HorseTest {
         Assertions.assertEquals(expectedMessage, exception.getMessage());
     }
 
+
     @Test
     public void construct_NegativeSpeedParamPassed_ThrowsIllegalArgumentException() {
         String expectedMessage = "Speed cannot be negative.";

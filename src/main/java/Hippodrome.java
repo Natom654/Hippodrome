@@ -14,10 +14,8 @@ public class Hippodrome {
         } else if (horses.isEmpty()) {
             throw new IllegalArgumentException("Horses cannot be empty.");
         }
-
         this.horses = horses;
     }
-
     public List<Horse> getHorses() {
         return Collections.unmodifiableList(horses);
     }

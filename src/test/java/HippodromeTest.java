@@ -41,6 +41,7 @@ class HippodromeTest {
         Assertions.assertEquals("Horse29", hipp.getHorses().get(29).getName());
     }
 
+
     @Test
     void move_CallMoveAllHorses() {
         List<Horse> horses = new ArrayList<>();
